@@ -20,12 +20,79 @@ body {
 .header {
 	grid-column: 2;
 	display: grid;
-	grid-template: repeat(2, 1fr) /2fr 1fr;
+	grid-template: repeat(2, 1fr) /1.5fr 1fr;
+	gap: 8px;
+	padding: 15px 30px;
+	background-color: #fff;
+	z-index: 1;  
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.header div {
-	padding: 15px;
+.search-bar form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	height: 100%;
+}
+
+#search-btn {
+	border: none;
+	background-color: #fff;
+}
+
+.icon.search {
+	cursor: pointer;
+}
+
+input[name='search'] {
+	background-color: #e1e7f0;
+	border: 1px solid #e1e7f0;
+	border-radius: 16px;
+	width: 80%;
+	padding: 6px;
+}
+
+.profile {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+}
+
+.text {
+	font-weight: bold;
+}
+
+.user-info {
+	display: flex;
+}
+
+.text.small {
+	font-size: smaller;
+	font-weight: normal;
+	margin-bottom: 4px;
+}
+
+.text.big {
+	font-size: 1.5rem;
+}
+
+.header-buttons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
+}
+
+.header-button {
+	font: inherit;
+  background-color: #1f91d3;
+  border: 2px solid #1f91d3;
+  color: #fff;
+  border-radius: 16px;
+	padding: 5px 30px;
+  cursor: pointer;
 }
 
 .sidebar {
@@ -51,7 +118,7 @@ body {
 	padding-right: 10px;
 }
 
-.icon.dashboard {
+.icon.big {
 	height: 3rem;
 }
 
