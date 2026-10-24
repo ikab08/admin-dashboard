@@ -34,6 +34,16 @@ body {
 	gap: 30px;
 }
 
+.icon {
+	height: 1.5rem;
+	width: auto;
+	padding-right: 10px;
+}
+
+.icon.negative {
+	filter: invert(1);
+}
+
 li {
 	list-style-type: none;
 	padding-bottom: 20px;
