@@ -2,7 +2,7 @@
 
 A full Admin Dashboard design.
 
-🔗 **[Online demo](https://ikab08.github.io/dashboard/)**
+🔗 **[Online demo](https://ikab08.github.io/admin-dashboard/)**
 
 ![Screenshot](assets/screenshot.png)
 
