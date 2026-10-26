@@ -68,8 +68,11 @@ input[name='search'] {
 	display: flex;
 }
 
-.text.small {
+.small {
 	font-size: smaller;
+}
+
+.text.small {
 	font-weight: normal;
 	margin-bottom: 4px;
 }
@@ -148,25 +151,67 @@ li {
 	background-color: rgb(227,232,239);
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	padding: 15px 30px;
+	gap: 20px;
 }
 
-.article {
+.main-heading {
+	padding: 10px 0px;
+}
+
+.projects {
 	display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	gap: 15px;
-	margin: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
 }
 
-h3 {
-	padding: 10px;
-}
-
-.article .card, 
-.aside .block {
+.card {
 	background-color: #fff;
+	border-radius: 10px;
+	border-left: 8px solid #f0b32d;
+	padding: 15px 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
-.aside {
+.card-title {
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.card-text {
+	color: rgb(122,122,122);
+}
+
+.card-buttons {
+	align-self: flex-end;
+}
+
+.announcement-section {
 	display: grid;
-	gap: 15px;
+	gap: 10px;
+}
+
+.card.noleft {
+	border-left: none;
+	gap: 0;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	width: 100%;
+	background-color: rgb(122,122,122);
+	margin: 15px 0;
+}
+
+.card.flex {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.trendbloc {
+	display: flex;
 }
