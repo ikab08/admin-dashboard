@@ -173,6 +173,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -196,6 +197,7 @@ li {
 .card.noleft {
 	border-left: none;
 	gap: 0;
+	box-shadow: none;
 }
 
 hr {
